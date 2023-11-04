@@ -1,8 +1,13 @@
 package main
 
+type Address struct {
+	Street string
+	City   string
+}
+
 type Supplier struct {
 	Name    string
-	Address string
+	Address Address
 }
 
 type Product struct {
